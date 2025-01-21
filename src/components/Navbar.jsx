@@ -14,7 +14,7 @@ export default function Navbar() {
     })
   }, [])
   return (
-    <nav className='fixed inset-x-0 z-40 top-0 transition text-white md:px-20 p-4 flex items-center gap-4 justify-between'>
+    <nav className='fixed inset-x-0 z-40 top-0 transition backdrop-blur-sm text-white md:px-20 p-4 flex items-center gap-4 justify-between'>
         <img src='./logo.png' alt='WOW' className='h-10' />
         <div className='hidden md:flex flex-col md:flex-row gap-8 items-center'>
           <a className='font-bold font-mont hover:text-primary transition' href="/">HOME</a>
