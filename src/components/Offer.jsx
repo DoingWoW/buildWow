@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Offer() {
   return (
-    <section className='px-4 md:px-20'>
-        <div className='w-full rounded-3xl border-2 border-primary md:p-12 p-4 text-center backdrop-blur-md bg-white/5 space-y-6'>
-            <h2 className='font-poppins font-bold md:text-4xl text-2xl'>WE OFFER</h2>
+    <section className='px-4 md:px-20 z-10 relative'>
+        <div className='w-full rounded-3xl border-2 border-primary md:p-12 p-4 text-center backdrop-blur-lg bg-white/5 space-y-6'>
+            <h2 className='font-poppins font-bold md:text-5xl text-2xl'>WE OFFER</h2>
             <div className="flex justify-between flex-col md:flex-row gap-4">
                 <div className='p-6 border-2 md:w-72 rounded-xl border-[#EC7B7B]'>
                     <img src="./hackathons.png" alt="hackathons" className='w-full h-64 object-contain' />

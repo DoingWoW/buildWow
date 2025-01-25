@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function SponsorForm() {
   return (
-    <section className='px-4 py-20 md:px-32'>
+    <section className='px-4 py-20 md:px-32 z-10 relative'>
         <div className='grid md:grid-cols-2 gap-10'>
             <div className='space-y-6'>
                 <h1 className='font-bold font-poppins uppercase text-4xl md:text-7xl'>SPONSOR US</h1>
-                <p className='font-poppins'>Interested in becoming a sponsor?
+                <p className='font-poppins text-[#eee]'>Interested in becoming a sponsor?
                     <br />
                     Fill in the form and our team will reach out to you shortly.
                 </p>
