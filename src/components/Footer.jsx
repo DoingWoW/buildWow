@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
-export default function Footer() {
+export default function Footer() {  
   return (
     <footer className='bg-[#0f0f0f] gap-6 relative z-20 text-white flex flex-col text-center items-center justify-center px-4 py-10'>
         <img src='./logo.png' alt='WOW' className='h-16' />
